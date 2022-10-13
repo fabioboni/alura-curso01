@@ -1,4 +1,4 @@
-import PageTitle from '../../components/PageTitle'
+import PageTitle from '../../components/PageTitle';
 import Footer from '../../components/patterns/Footer';
 import Link from '../../components/Link';
 import { theme } from '../../theme/theme';
