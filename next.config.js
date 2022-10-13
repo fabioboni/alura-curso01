@@ -1,3 +1,4 @@
+
 module.exports = {
     trailingSlash: true,
     async redirects() {
@@ -6,7 +7,7 @@ module.exports = {
                 source: '/perguntas',
                 destination: '/faq/',
                 permanent: true,
-            }
+            },
         ]
     },
 }
