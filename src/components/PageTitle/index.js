@@ -1,11 +1,9 @@
 import Head from 'next/Head';
 
-function PageTitle({ children }) {
+export default function PageTitle({ children }) {
     return (
         <Head>
             <title>{children}</title>
         </Head>
     );
 }
-
-export default PageTitle;
