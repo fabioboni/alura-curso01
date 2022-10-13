@@ -3,7 +3,7 @@ import Head from 'next/Head';
 export default function PageTitle({ children }) {
     return (
         <Head>
-            <title>{children}</title>
+            <title class='titulo'>{children}</title>
         </Head>
     );
 }
