@@ -21,7 +21,7 @@ export async function getStaticProps() {
 
     return {
         props: {
-            qualquercoisa: 'que eu passar aqui',
+            qualquercoisa: 'vai ter uma mensagem aqui',
             faq,
         },
     };
